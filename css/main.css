@@ -34,6 +34,11 @@ img {
   margin-right: auto;
 }
 
+*:focus {
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
+
 /* BUTTON */
 .button {
   display: inline-block;
@@ -55,6 +60,7 @@ img {
 .button-primary:hover {
   opacity: 0.8;
 }
+
 .button-primary:active {
   opacity: 0.6;
 }
@@ -90,6 +96,22 @@ img {
   opacity: 0.6;
 }
 
+/* GLOBAL-SEARCH-FORM */
+
+.global-search__form {
+  margin-right: 25px;
+}
+.global-search__form-input {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
 /* CURRENCY-RATES */
 .currency-rates {
   display: flex;
@@ -123,7 +145,7 @@ img {
   width: 30px;
   height: 30px;
   font-size: 13px;
-  color:#a6a6a6;
+  color: #a6a6a6;
   border-radius: 50%;
   line-height: 30px;
   text-align: center;
@@ -132,5 +154,5 @@ img {
 
 .lang-toggle__link-active {
   background-color: #fff;
-  color:#000;
+  color: #000;
 }
