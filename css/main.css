@@ -43,6 +43,7 @@ img {
 .button {
   display: inline-block;
   padding: 13px 20px;
+  border: 0;
   border-radius: 10px;
   font-size: 16px;
   line-height: normal;
@@ -52,19 +53,24 @@ img {
   cursor: pointer;
 }
 
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
 .button-primary {
   background-color: #7296ec;
   color: #fff;
 }
 
-.button-primary:hover {
-  opacity: 0.8;
-}
+.button-orange {
+  background-color: #f78b3b;
+  color: #fff;
 
-.button-primary:active {
-  opacity: 0.6;
 }
-
 /* SITE-HEADER0 */
 
 
@@ -289,4 +295,27 @@ img {
   font-size: 12px;
   line-height: normal;
   color: #5f5e61;
+}
+
+
+/* NOTIFICATION-CTA */
+
+.notification-cta {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 25px 70px 25px 25px;
+  margin: 60px 75px;
+  border-radius: 10px;
+  background-color: #ffd7ba;
+}
+.notification-cta__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #000;
+}
+.button {
+}
+.button-orange {
 }
