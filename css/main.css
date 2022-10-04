@@ -113,6 +113,7 @@ img {
 .global-search__form {
   margin-right: 25px;
 }
+
 .global-search__form-input {
   padding-top: 15px;
   padding-bottom: 13px;
@@ -179,6 +180,7 @@ img {
   font-weight: 500;
   line-height: normal;
 }
+
 .sitenav-list {
   display: flex;
   flex-wrap: wrap;
@@ -192,17 +194,19 @@ img {
   margin-top: 4px;
   margin-bottom: 4px;
 }
+
 .sitenav-item:not(:last-child) {
   margin-right: 34px;
 }
+
 .sitenav-link {
   display: block;
   text-decoration: none;
-  color:#7F7F7F;
+  color: #7F7F7F;
 }
 
 .sitenav-link:hover {
-  color:#7296ec;
+  color: #7296ec;
   opacity: 0.8;
 }
 
@@ -222,6 +226,7 @@ img {
 .main-content {
   flex-grow: 1;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 
@@ -244,7 +249,7 @@ img {
   flex-direction: column;
   padding: 20px 17px 15px;
   background-color: #f6f6f6;
-  border-radius:15px;
+  border-radius: 15px;
 }
 
 .article-card__title {
@@ -262,7 +267,7 @@ img {
 }
 
 .article-card__link:hover {
-  color:#7296ec;
+  color: #7296ec;
 }
 
 .article-card__link:active {
@@ -307,13 +312,14 @@ img {
 
 .notification-cta {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   padding: 25px 70px 25px 25px;
   margin: 60px 75px;
   border-radius: 10px;
   background-color: #ffd7ba;
 }
+
 .notification-cta__text {
   font-size: 20px;
   font-weight: 500;
@@ -326,6 +332,7 @@ img {
 .global-news {
   width: 797px;
 }
+
 .global-news__heading {
   margin-top: 0;
   margin-bottom: 20px;
@@ -340,6 +347,7 @@ img {
   flex-direction: column;
   margin-bottom: 15px;
 }
+
 .news-lists-item:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -347,7 +355,7 @@ img {
 /* ARTICLE-CARD-HORIZONTAL */
 .article-card__horizontal {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   padding: 20px;
   border-radius: 15px;
   background-color: #f6f6f6;
@@ -380,7 +388,7 @@ img {
 }
 
 .article-card__horizontal-link:hover {
-  color:#7296ec;
+  color: #7296ec;
 }
 
 .article-card__horizontal-link:active {
@@ -394,23 +402,131 @@ img {
   line-height: 22px;
 
 }
+
 .article-card-horizontal__footer {
   display: flex;
-  align-items:center;
+  align-items: center;
 }
+
 .article-card-horizontal__source-img {
   width: 20px;
   height: 20px;
   margin-right: 10px;
   object-fit: cover;
-  border-radius:5px;
+  border-radius: 5px;
 }
+
 .article-card-horizontal__source-time {
   font-size: 12px;
   line-height: normal;
-  color:#5e5f61;
+  color: #5e5f61;
 }
 
 .news-lists__more-button {
   padding: 17px;
+}
+
+
+/* LAYOUT */
+
+.layout-2-1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.layout-2-1-main {
+  width: 797px;
+  margin-right: 10px;
+}
+
+.layout-2-1-sidebar {
+  width: 393px;
+  margin-top: 49px;
+}
+
+.layout-2-1-sidebar-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/*  SIDEBAR-NEWS */
+
+
+.sidebar-news__card {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.sidebar-news__card-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.sidebar-news__card-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebar-news__card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sidebar-news__card-item:first-child {
+  padding-top: 0;
+}
+
+.sidebar-news__card-item:last-child {
+  padding-bottom: 0;
+}
+
+.sidebar-news__card-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.sidebar-news__card-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sidebar-news__card-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar-news__card-link:hover{
+  color:#7296ec;
+}
+
+.sidebar-news__card-link:active {
+  opacity: 0.6;
+}
+
+.sidebar-news-card__source-time {
+  font-size: 13px;
+  line-height: normal;
+  color: #5e5f61;
+}
+
+
+/* SIDEBAR-AD */
+
+.sidebar-ad__link {
+  display: flex;
+}
+
+.sidebar-ad__img {
+  width: 393px;
+  height: 338px;
+  object-fit: cover;
+  border-radius: 15px;
 }
