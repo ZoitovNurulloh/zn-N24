@@ -675,3 +675,59 @@ img {
   height: 25px;
   object-fit: contain;
 }
+
+
+/* CONTACT PAGE */
+
+.contact-page__heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #000;
+}
+
+.contact-page__form {
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+}
+
+/* FORM */
+
+.form-groups__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form-groups__wrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-groups__wrapper .form-group {
+  width: calc( 50% - 5px ) ;
+  margin-bottom: 0;
+}
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border:1px solid rgba(0, 0, 0, 0.2) ;
+  border-radius: 10px;
+}
+
+.form-field__text-area {
+  resize: vertical;
+  min-height: 180px;
+}
+
+.contact-page__form-submit {
+  align-self: flex-end;
+  margin-top: 10px;
+}

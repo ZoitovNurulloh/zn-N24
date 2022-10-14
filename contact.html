@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News N24</title>
+  <title>Контакт N24</title>
 
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,88 +72,118 @@
       </nav>
 
 
-  <!-- MAIN-CONTENT -->
-  <main class="main-content">
-    <div class="container">
+      <!-- MAIN-CONTENT -->
+      <main class="main-content">
+        <div class="container">
+          <div class="contact-page">
+            <h1 class="contact-page__heading">Напишите нам</h1>
 
+            <div class="contact-page__content">
+              <form action="https://echo.htmlacademy.ru" class="contact-page__form form" method="post">
 
-    </div>
-  </main>
+                <div class="form-groups__wrapper">
+                  <div class="form-group">
+                    <input type="text" name="name" placeholder="Имя" aria-label="Имя" required class="form-field">
+                  </div>
 
-  <!-- SITE-FOOTER -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="site-footer__logo-wrapper">
-        <a href="index.html" class="site-footer__logo">
-          <img src="/img/logo-white.svg" alt="N24 logo" class="site-footer__logo-img" width="264" height="28">
-        </a>
-      </div>
+                  <div class="form-group">
+                    <input type="tel" name="number_phone" placeholder="Номер телефона" aria-label="Номер телефона"
+                      required class="form-field">
+                  </div>
+                </div>
 
-      <div class="site-footer__about-links">
-        <div class="site-footer__about">
-          Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с
-          предварительного письменного разрешения редакции.
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта"
+                    required class="form-field">
+                </div>
+
+                <div class="form-group">
+                  <textarea class="form-field form-field__text-area" name="massage" placeholder="Текст"
+                    aria-label="Текст" required></textarea>
+                </div>
+
+                <button class="contact-page__form-submit  button button-primary" type="submit">Отправить</button>
+              </form>
+
+            </div>
+          </div>
         </div>
+      </main>
 
-        <div class="site-footer__links-wrapper">
-          <ul class="site-footer__links">
-            <li class="site-footer__links-item">
-              <a href="#" class="site-footer__link">Информация о сайте</a>
-            </li>
-            <li class="site-footer__links-item">
-              <a href="#" class="site-footer__link">Напишите нам</a>
-            </li>
-            <li class="site-footer__links-item">
-              <a href="#" class="site-footer__link">Реклама</a>
-            </li>
-            <li class="site-footer__links-item">
-              <a href="#" class="site-footer__link">Прислать новость</a>
-            </li>
-          </ul>
+      <!-- SITE-FOOTER -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="site-footer__logo-wrapper">
+            <a href="index.html" class="site-footer__logo">
+              <img src="/img/logo-white.svg" alt="N24 logo" class="site-footer__logo-img" width="264" height="28">
+            </a>
+          </div>
 
-          <ul class="site-footer__links">
-            <li class="site-footer__links-item">
-              <a href="#" class="site-footer__link">Использование материалов</a>
-            </li>
-            <li class="site-footer__links-item">
-              <a href="#" class="site-footer__link">Темы дня</a>
-            </li>
-            <li class="site-footer__links-item">
-              <a href="#" class="site-footer__link">Наша команда</a>
-            </li>
-          </ul>
+          <div class="site-footer__about-links">
+            <div class="site-footer__about">
+              Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с
+              предварительного письменного разрешения редакции.
+            </div>
+
+            <div class="site-footer__links-wrapper">
+              <ul class="site-footer__links">
+                <li class="site-footer__links-item">
+                  <a href="#" class="site-footer__link">Информация о сайте</a>
+                </li>
+                <li class="site-footer__links-item">
+                  <a href="#" class="site-footer__link">Напишите нам</a>
+                </li>
+                <li class="site-footer__links-item">
+                  <a href="#" class="site-footer__link">Реклама</a>
+                </li>
+                <li class="site-footer__links-item">
+                  <a href="#" class="site-footer__link">Прислать новость</a>
+                </li>
+              </ul>
+
+              <ul class="site-footer__links">
+                <li class="site-footer__links-item">
+                  <a href="#" class="site-footer__link">Использование материалов</a>
+                </li>
+                <li class="site-footer__links-item">
+                  <a href="#" class="site-footer__link">Темы дня</a>
+                </li>
+                <li class="site-footer__links-item">
+                  <a href="#" class="site-footer__link">Наша команда</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <hr class="site-footer__divider">
+
+          <div class="site-footer__socials">
+            <h2 class="site-footer__socials-heading">Наши социальные сети</h2>
+            <ul class="site-footer__socials-list">
+              <li class="site-footer__socials-item">
+                <a href="#" class="site-footer__socials-link" target="_blank">
+                  <img class="site-footer__socials-img" src="/img/icon-fb.svg" alt="" width="25" height="25">
+                </a>
+              </li>
+              <li class="site-footer__socials-item">
+                <a href="#" class="site-footer__socials-link" target="_blank">
+                  <img class="site-footer__socials-img" src="/img/icon-insta.svg" alt="" width="25" height="25">
+                </a>
+              </li>
+              <li class="site-footer__socials-item">
+                <a href="#" class="site-footer__socials-link" target="_blank">
+                  <img class="site-footer__socials-img" src="/img/icon-tg.svg" alt="" width="25" height="25">
+                </a>
+              </li>
+              <li class="site-footer__socials-item">
+                <a href="#" class="site-footer__socials-link" target="_blank">
+                  <img class="site-footer__socials-img" src="/img/icon-youtube.svg" alt="" width="25" height="25">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-
-      <hr class="site-footer__divider">
-
-      <div class="site-footer__socials">
-        <h2 class="site-footer__socials-heading">Наши социальные сети</h2>
-        <ul class="site-footer__socials-list">
-          <li class="site-footer__socials-item">
-            <a href="#" class="site-footer__socials-link" target="_blank">
-              <img class="site-footer__socials-img" src="/img/icon-fb.svg" alt="" width="25" height="25">
-            </a>
-          </li>
-          <li class="site-footer__socials-item">
-            <a href="#" class="site-footer__socials-link" target="_blank">
-              <img class="site-footer__socials-img" src="/img/icon-insta.svg" alt="" width="25" height="25">
-            </a>
-          </li>
-          <li class="site-footer__socials-item">
-            <a href="#" class="site-footer__socials-link" target="_blank">
-              <img class="site-footer__socials-img" src="/img/icon-tg.svg" alt="" width="25" height="25">
-            </a>
-          </li>
-          <li class="site-footer__socials-item">
-            <a href="#" class="site-footer__socials-link" target="_blank">
-              <img class="site-footer__socials-img" src="/img/icon-youtube.svg" alt="" width="25" height="25">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+      </footer>
 </body>
 
 </html>
