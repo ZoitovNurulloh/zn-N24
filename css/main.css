@@ -66,6 +66,13 @@ img {
   opacity: 0.6;
 }
 
+.button-large {
+  padding: 15px 40px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
 .button-primary {
   background-color: #7296ec;
   color: #fff;
@@ -74,6 +81,21 @@ img {
 .button-orange {
   background-color: #f78b3b;
   color: #fff;
+}
+
+
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* SITE-HEADER0 */
@@ -779,7 +801,83 @@ img {
   line-height: 19px;
 }
 
+/* MODAL */
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+.modal-open {
+  display: block;
+}
+
+.modal-dialog {
+  width: 100%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+.modal-content {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.modal-close {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 20px;
+  border:0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  opacity: 0.8;
+}
+
+.modal-close:active {
+  opacity: 0.6;
+}
+
+.modal-close-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.modal-lead {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 34px;
+  color: #000;
+  text-align: center;
+}
+
+.modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+
+/* MEDIA  */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
